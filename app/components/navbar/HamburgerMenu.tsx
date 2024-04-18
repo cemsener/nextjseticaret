@@ -1,7 +1,11 @@
-import React from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const HamburgerMenu = () => {
-  return <div>HamburgerMenu</div>;
+  return (
+    <div className="relative flex md:hidden">
+      <RxHamburgerMenu size="25" />
+    </div>
+  );
 };
 
 export default HamburgerMenu;

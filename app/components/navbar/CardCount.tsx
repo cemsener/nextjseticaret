@@ -1,7 +1,7 @@
 import React from "react";
 
 const CardCount = () => {
-  return <div>CardCount</div>;
+  return <div className="hidden md:flex">CardCount</div>;
 };
 
 export default CardCount;
